@@ -1,12 +1,12 @@
-package main
+puckage main
 
 import (
-	"chango/lexer"
-	"chango/token"
+	// "chango/lexer"
+	// "chango/token"
 	"fmt"
+	"chango/repl"
 )
 
 func main() {
-	fmt.Println(token.EOF)
-	lexer.Hola()
+	
 }
