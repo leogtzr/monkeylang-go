@@ -1,10 +1,10 @@
-puckage main
+package main
 
 import (
 	// "chango/lexer"
 	// "chango/token"
-	"fmt"
-	"chango/repl"
+	// "fmt"
+	// "chango/repl"
 )
 
 func main() {
