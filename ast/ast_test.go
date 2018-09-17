@@ -22,9 +22,7 @@ func TestString(t *testing.T) {
 		},
 	}
 
-	pString := program.String()
-	const expectedProgramString = `let myVar = anotherVar;`
-	if pString != expectedProgramString {
-		t.Errorf("program.String() wrong got=%q, expected: %q", pString, expectedProgramString)
+	if program.String() != "let myVar = anotherVar;" {
+		t.Errorf("program.String() wrong. got=%q", program.String())
 	}
 }
