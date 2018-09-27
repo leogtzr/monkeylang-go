@@ -8,7 +8,6 @@ type Token struct {
 }
 
 const (
-
 	STRING = "STRING"
 
 	ILLEGAL = "ILLEGAL"
@@ -51,6 +50,9 @@ const (
 
 	EQ     = "=="
 	NOT_EQ = "!="
+
+	LBRACKET = "["
+	RBRACKET = "]"
 )
 
 var keywords = map[string]TokenType{
