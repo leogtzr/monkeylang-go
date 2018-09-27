@@ -8,6 +8,9 @@ type Token struct {
 }
 
 const (
+
+	STRING = "STRING"
+
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
 
